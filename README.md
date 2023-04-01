@@ -239,8 +239,7 @@ if ($s eq "")  {
 }
 ```
 
-# ex03 : joke
-# ex04 : lyrics
+# ex03 : joke / ex04 : lyrics
 
 # ex02 : touch me
 ```sh
