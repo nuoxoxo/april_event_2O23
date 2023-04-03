@@ -1,5 +1,7 @@
 # Event April 2O23
 
+![](https://i.imgur.com/O5IybGa.jpg)
+
 - [ ] ex17 : blue part is `This is a hidden message (can you find it?)`
 - [x] ex16
 - [x] ex15 : stegno : __HYDI24__
@@ -16,6 +18,7 @@
 - [x] ex04, ex03
 - [x] ex02
 - [x] ex01
+
 
 # ex15 : stegno on a png
 ```
@@ -262,5 +265,5 @@ do
 done
 ```
 
-![](https://i.imgur.com/osIK4xz.jpg)
+
 
