@@ -1,5 +1,7 @@
 # Event April 2O23
 
+final edit: by @qxqxia
+
 ![](https://i.imgur.com/O5IybGa.jpg)
 
 - [ ] ex17 : blue part is `This is a hidden message (can you find it?)`
