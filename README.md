@@ -15,6 +15,8 @@ final edit: by @qxqxia
 - [x] ex09
 - [x] ex08 : blackjack
 - [x] ex07
+  - best: `main(c,v,e)char**e;{((void(*)())e+1)(v);}`
+  - mine: `main(c,v)char**v;{return c^3?0:(printf("%s %s\n",v[1],v[2]),2);}`
 - [x] ex06
 - [x] ex05
 - [x] ex04, ex03
