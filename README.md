@@ -16,6 +16,7 @@ final edit: by @qxqxia
 - [x] ex08 : blackjack
 - [x] ex07
   - best: `main(c,v,e)char**e;{((void(*)())e+1)(v);}`
+  - axel: `main(a,b)char**b;{if(a==3)return*--b[2]=32,puts(b[1]),2;}`
   - mine: `main(c,v)char**v;{return c^3?0:(printf("%s %s\n",v[1],v[2]),2);}`
 - [x] ex06
 - [x] ex05
