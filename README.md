@@ -6,12 +6,12 @@ final edit: by @qxqxia
 
 - [ ] ex17 : blue part is `This is a hidden message (can you find it?)`
 - [x] ex16
-- [x] ex15 : stegno : __HYDI24__
+- [x] ex15 : stegno
 - [x] ex14 : sast
 - [ ] ex13 : jungle text game
 - [ ] ex12 : smtp
 - [ ] ex11 : api
-- [x] ex10 : cipher - __kSh2JF__
+- [x] ex10 : cipher
 - [x] ex09
 - [x] ex08 : blackjack
 - [x] ex07
