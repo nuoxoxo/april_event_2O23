@@ -27,12 +27,12 @@ final edit: by @qxqxia
 
 # ex15 : stegno on a png
 ```
-10422  head 42.png
-10423  file 42.png
-10424  strings 42.png
-10425  exiftool 42.png
-10426  xxd 42.png
-10438  binwalk 42.png
+head 42.png
+file 42.png
+strings 42.png
+exiftool 42.png
+xxd 42.png
+binwalk 42.png
 ```
 
 
