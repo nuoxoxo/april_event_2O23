@@ -1,17 +1,22 @@
 import * as fs from 'fs';
 
 let file: string
-//file = 'subject.in'
-file = 'test.in'
 
-const line = fs.readFileSync('test.in', 'utf-8')
-console.log(line)
+// Switch infile
 
+file = 'subject.in'
+// file = 'test.in'
+
+
+// Solver
+const line = fs.readFileSync(file, 'utf-8')
+
+// console.log('test : ' + line)
 console.log('part 1: ' + subject(line))
 console.log('part 2: ' + p2(line))
 
 
-// fn
+// Fn
 
 function p2(s: string): string {
     let res = ''
