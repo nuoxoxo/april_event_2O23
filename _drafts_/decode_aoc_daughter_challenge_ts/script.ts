@@ -1,24 +1,55 @@
 import * as fs from 'fs';
 
-const line = fs.readFileSync('p1.in', 'utf-8')
+let file: string
+//file = 'subject.in'
+file = 'test.in'
+
+const line = fs.readFileSync('test.in', 'utf-8')
 console.log(line)
 
-let res: string = ''
-let i: number = 0
-let A = 'A'.charCodeAt(0)
-let Z = 'Z'.charCodeAt(0)
+console.log('part 1: ' + subject(line))
+console.log('part 2: ' + p2(line))
 
-while (i < line.length) {
-    let c = line[i]
-    let code = c.charCodeAt(0)
-    if (((code <= Z && code >= A) || c == '-') &&
-        i < line.length - 1 && c == line[i + 1]) {
-        res += c
-        i += 2
-    } else {
-        ++i
+
+// fn
+
+function p2(s: string): string {
+    let res = ''
+    let i = 0
+    let zero = '0'.charCodeAt(0)
+    let nine = '9'.charCodeAt(0)
+    for (let i = 0; i < s.length; i++) {
+        let c = s[i]
+        let code = c.charCodeAt(0)
+        if (code <= nine && code >= zero && i < s.length - 1 && c == s[i + 1]) {
+            res += c
+            i++
+        }
     }
+    return res
 }
 
-console.log(res)
+// arrow fn cannot be hoisted ***
+// const subject = (line: string): string => {
+
+function subject(line: string): string {
+    let res: string = ''
+    let i: number = 0
+    let A = 'A'.charCodeAt(0)
+    let Z = 'Z'.charCodeAt(0)
+
+    while (i < line.length) {
+        let c = line[i]
+        let code = c.charCodeAt(0)
+        if (((code <= Z && code >= A) || c == '-') &&
+            i < line.length - 1 && c == line[i + 1]) {
+            res += c
+            i += 2
+        } else {
+            ++i
+        }
+    }
+    return res
+}
+
 

@@ -13,7 +13,7 @@ fs.readFile("filename.txt", "utf8", (err: Error, data: string) => {
 
 /*
 import fs from 'node:fs'
-fs.readFile('p1.in', 'utf8', (err: Error, data: string) => {
+fs.readFile('subject.in', 'utf8', (err: Error, data: string) => {
     if (err) {
         console.log(err)
         return
@@ -24,5 +24,5 @@ fs.readFile('p1.in', 'utf8', (err: Error, data: string) => {
 
 import * as fs from 'fs';
 
-const lines = fs.readFileSync('p1.in', 'utf-8')
+const lines = fs.readFileSync('subject.in', 'utf-8')
 console.log(lines)
