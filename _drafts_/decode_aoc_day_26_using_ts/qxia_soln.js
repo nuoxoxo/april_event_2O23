@@ -5,7 +5,7 @@ const subj = fs.readFileSync('subject.in', 'utf-8')
 let regex_p1 = /([A-Z]|-)\1/g
 let regex_p2 = /(\d)\1/g
 
-function solve(l, regex) {
+const solve = (l, regex) => {
 	let result = l.match(regex)
 	// console.log(result)
 	let s = ""
