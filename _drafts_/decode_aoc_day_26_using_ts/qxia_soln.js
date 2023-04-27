@@ -10,7 +10,7 @@ const solve = (l, regex) => {
 	// console.log(result)
 	let s = ""
 	for (let i = 0; i < result.length; i++)
-		s += result[i][0];
+		s += result[i][0]
 	return s
 }
 
