@@ -12,7 +12,7 @@ file = 'subject.in'
 const line = fs.readFileSync(file, 'utf-8')
 
 // console.log('test : ' + line)
-console.log('part 1: ' + subject(line))
+console.log('part 1: ' + p1(line))
 console.log('part 2: ' + p2(line))
 
 
@@ -37,7 +37,7 @@ function p2(s: string): string {
 // arrow fn cannot be hoisted ***
 // const subject = (line: string): string => {
 
-function subject(line: string): string {
+function p1(line: string): string {
     let res: string = ''
     let i: number = 0
     let A = 'A'.charCodeAt(0)
